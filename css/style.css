@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.card{
+  background: #C6E0FB;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.card img{
+  height: 315px;
+  
+}
+
+h5{
+  background-color: #F2ADCE;
+  display: inline;
+  font-weight: 600;
+}
+
+p{
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+ul li{
+  display: inline-block;
+  padding-right: .5rem;
+}
+
+ul li a{
+  color: #80888C;
+}
